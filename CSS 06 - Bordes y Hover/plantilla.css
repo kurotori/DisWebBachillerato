@@ -1,0 +1,18 @@
+body{
+    font-family: helvetica;
+}
+
+#uno{
+    border: 60px solid transparent; 
+    padding: 20px; 
+	border-image-source: url(borde.png);
+	border-image-repeat: round;
+    border-image-slice: 278 278 278 278;
+	text-align:center; 
+    width: 70px;
+    height: 70px;
+}
+
+#uno:hover{
+    border-image-source: url(borde-2.png);
+}

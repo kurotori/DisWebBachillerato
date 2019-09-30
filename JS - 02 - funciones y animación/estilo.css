@@ -1,0 +1,41 @@
+body{
+    font-family: Helvetica;
+}
+
+#barra{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width:100%;
+    height: 50px;
+}
+
+.item{
+    padding: 10px 0px 10px 0px;
+    font-size: 30px;
+    width: 20%;
+    height: 30px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+#item_1{
+    background-color: red;
+}
+
+#item_2{
+    background-color: green;
+}
+
+#item_3{
+    background-color: yellow;
+    color: black;
+}
+
+#item_4{
+    background-color: blue;
+}
+#item_5{
+    background-color: orange;
+}
