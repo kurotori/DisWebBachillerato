@@ -1,0 +1,18 @@
+h1{
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 115px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    width: 600px;
+    height: fit-content;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    padding: 10px;
+    color: white;
+    background-color: darkslategray;
+    
+}
