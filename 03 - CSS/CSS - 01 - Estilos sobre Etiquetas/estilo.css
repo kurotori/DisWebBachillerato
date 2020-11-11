@@ -8,11 +8,21 @@ h1{
 
 p{
     width: 600px;
-    height: fit-content;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
     text-align: justify;
-    padding: 10px;
     color: white;
-    background-color: darkslategray;
-    
+    background-color: black;
+}
+
+b{
+    text-decoration: underline lightcoral;
+    font-style: italic;
+    font-size: 24px;
+}
+
+otra{
+    font-size: 12px;
+    color:red;
+    font-family:Geneva, Verdana, sans-serif;
 }
