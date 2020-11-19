@@ -1,18 +1,26 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #uno {
     width: 250px;
     height: 250px;
-    background-color: yellow;
+    background-color: green;
 }
 
 #dos {
     width: 300px;
     height: 450px;
-    background-color: orange;
+    
 }
 
 .caja {
     border-style: solid;
     border-color: black;
     border-width: 5px;
-    
+    background-color: blue;
+}
+
+.fondoRojo{
+    background-color: red;
 }

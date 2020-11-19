@@ -1,0 +1,29 @@
+
+body{
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+}
+
+#uno{
+    background-color: red;
+}
+#dos{
+    float:right;
+    background-color: green;
+}
+#tres{
+    float: left;
+    background-color: blue;
+}
+
+#cuatro{
+    width: 220px;
+    height: 400px;
+    vertical-align: bottom;
+    background-color: yellow;
+}

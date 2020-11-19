@@ -1,0 +1,51 @@
+body{
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.caja{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.cajaChica{
+    width: 300px;
+    height: 50px;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.cajaLarga{
+    width: 300px;
+    height: 600px;
+    background-color: lightseagreen;
+    border: 1px solid black;
+}
+
+#uno{
+    position: static;
+    background-color: lime;
+}
+
+#dos{
+    position: relative;
+    left: 150px;
+    top: -200px;
+    background-color: orange;
+}
+
+#tres{
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    background-color: tomato;
+}
+
+#cuatro{
+    position: fixed;
+    left: 900px;
+    top: 300px;
+    color: white;
+    background-color: blue;
+}

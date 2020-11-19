@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Posicionamiento 01</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+    <body>
+        <div id="uno" class="caja">
+            Este DIV esta con <b>posicionamiento estático</b>, esta en su <b>posición por descarte</b> de acuerdo al
+            flujo normal del documento.<br>
+            Las siguientes propiedades no tienen <b>ningún efecto:</b>
+            <ul>
+                <li>top</li>
+                <li>bottom</li>
+                <li>right</li>
+                <li>left</li>
+                <li>z-index</li>
+            </ul>
+        </div>
+
+        <div id="dos" class="caja">
+            Este DIV esta con <b>posicionamiento relativo</b>. 
+            Su posición <b>es relativa</b> a su posición por descarte.<br>
+            Sin embargo, su posición por descarte <b>se reserva</b> y los demás objetos 
+            <b>se disponen</b> como  si aún estuviera ahí. <br>
+            Su posición se determina mediante las propiedades:
+            <ul>
+                <li>top</li>
+                <li>bottom</li>
+                <li>right</li>
+                <li>left</li>
+                <li>z-index</li>
+            </ul>
+
+        </div>
+
+        <div class="cajaChica">
+            Este DIV esta acá para mostrar el <b>espacio reservado</b> para el DIV #dos
+        </div>
+
+        <div id="tres" class="caja">
+            Este DIV esta con <b>posicionamiento absoluto</b>. 
+            Se lo retira del flujo normal del documento y su posición <b>es relativa al 
+            objeto posicionado más cercano <u>que lo contenga</u></b>.<br>
+            De lo contrario, <b>es relativa al documento</b> 
+            y  su posición por descarte <b>NO se reserva</b>. <br>
+            Su posición se determina mediante las propiedades:
+            <ul>
+                <li>top</li>
+                <li>bottom</li>
+                <li>right</li>
+                <li>left</li>
+                <li>z-index</li>
+            </ul>
+
+        </div>
+
+        <div class="cajaChica">
+            Este DIV esta acá para mostrar el <b>espacio reservado</b> para el DIV #tres
+        </div>
+
+        <div id="cuatro" class="caja">
+            Este DIV esta con <b>posicionamiento fijo</b>. 
+            Se lo retira del flujo normal del documento y su posición 
+            <b>es relativa al documento.</b><br>
+            Su posición por descarte <b>NO se reserva</b>. <br>
+            Su posición se determina mediante las propiedades:
+            <ul>
+                <li>top</li>
+                <li>bottom</li>
+                <li>right</li>
+                <li>left</li>
+                <li>z-index</li>
+            </ul>
+        </div>
+
+        <div class="cajaLarga">
+            Este DIV esta acá para aumentar el tamaño vertical de la página.
+        </div>
+
+    </body>
+</html>
