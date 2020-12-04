@@ -1,0 +1,34 @@
+body{
+    font-family: "Arial";
+}
+.cajas{
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#uno{
+    background-color: red;
+    color: white;
+    z-index: 100;
+}
+
+#dos{
+    top:40px;
+    left: 50px;
+    background-color: green;
+    background-image: url(img/116Horsea_RB.png);
+    z-index: 99;
+}
+
+#tres{
+    top:80px;
+    left:100px;
+    background-color: blue;
+    background-image: url(img/star.png);
+    z-index: 98;
+}
