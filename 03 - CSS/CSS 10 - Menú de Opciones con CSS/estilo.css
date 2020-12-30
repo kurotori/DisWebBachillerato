@@ -1,0 +1,91 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#barraMenu{
+    border: solid brown 2px;
+    background-color: brown;
+    width: 54px;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#barraMenu:hover{
+    width: 250px;
+}
+
+.itemMenu{
+    width: 250px;
+    height: 50px;
+    border: none black 1px;
+    margin: 2px;
+    background-color: brown;
+    color: white;
+}
+
+.itemMenu:hover{
+    background-color: tomato;
+}
+
+.itemMenu:active{
+    background-color: blue;
+}
+
+.itemMenu:active .itemMenuIcono{
+    width: 45px;
+    height: 45px;
+    border: 2.5px solid blue;
+}
+
+.itemMenuIcono{
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: none black 1px;
+}
+
+.itemMenuTexto{
+    position: relative;
+    float: left;
+    top: 17px;
+    left: 50px;
+}
+
+#icono_menu{
+    background-image: url(imagen/list.png);
+    background-size: contain;
+}
+
+#icono1_1{
+    background-image: url(imagen/01.png);
+    background-size: contain;
+}
+
+#icono1_2{
+    background-image: url(imagen/02.png);
+    background-size: contain;
+}
+
+#icono1_3{
+    background-image: url(imagen/03.png);
+    background-size: contain;
+}
+
+#icono1_4{
+    background-image: url(imagen/04.png);
+    background-size: contain;
+}
+
+#icono1_5{
+    background-image: url(imagen/05.png);
+    background-size: contain;
+}
