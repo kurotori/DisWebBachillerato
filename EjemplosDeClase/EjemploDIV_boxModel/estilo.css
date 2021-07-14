@@ -1,0 +1,24 @@
+.caja{
+	width: 150px;
+	height: 150px;
+}
+
+#uno{
+	background-color: red;
+}
+
+#dos{
+	background-color: blue;
+	padding: 10px;
+}
+
+#tres{
+	background-color: green;
+	border: 2px solid black;
+}
+
+#cuatro{
+	background-color: orange;
+	margin: 15px;
+}
+
