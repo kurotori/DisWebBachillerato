@@ -18,6 +18,7 @@ html,body{
     height: 500px;
     background-color: blue;
     border-top: 1px solid black;
+    transition: width 600ms;
 }
 
 #menu:hover{
@@ -32,9 +33,11 @@ html,body{
     border-right: 1px solid black;
     background-color: white;
     overflow-x: hidden;
+    transition: all 500ms;
 }
 
 .seccion_menu:hover{
+    height: 100px;
     background-color: yellow;
 }
 
@@ -78,4 +81,22 @@ html,body{
     position: relative;
     top: 20%;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecera{
+    width: 100%;
+    height: 100px;
+    border-bottom: black 2px solid;
+    position: fixed;
+    top: 0px;
+    bottom: auto;
+}
+
+.seccion_cab{
+    float: left;
+    margin-left: 20px;
+    height: 100%;
+    width: 150px;
+    border-left: black 1px solid;
+    border-right:black 1px solid;
 }
