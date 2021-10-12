@@ -99,4 +99,9 @@ html,body{
     width: 150px;
     border-left: black 1px solid;
     border-right:black 1px solid;
+    transition:all 500ms;
+}
+
+.seccion_cab:hover{
+    width: 300px;
 }
