@@ -19,6 +19,7 @@ html,body{
     background-color: blue;
     border-top: 1px solid black;
     transition: width 600ms;
+    z-index: 20;
 }
 
 #menu:hover{
@@ -104,4 +105,44 @@ html,body{
 
 .seccion_cab:hover{
     width: 300px;
+}
+
+#contenido{
+    height:100%;
+    width: calc(100% - 110px);
+    position: relative;
+    left: 55px;
+    background-color: red;
+    z-index: 10;
+}
+
+.publicacion{
+    height: 55%;
+    width: 100%;
+    border-bottom: 3px dashed black;
+}
+
+.encabezado{
+    height: 20%;
+    width: 100%;
+    background-color: yellow;
+}
+
+.pub_contenido{
+    height: 80%;
+    width: 100%;
+    background-color: orange;
+}
+
+.pub_imagen{
+    float: left;
+    height: 100%;
+    width: calc(100%/3);
+}
+
+.pub_texto{
+    float: left;
+    height: 100%;
+    width: calc((100%/3)*2);
+    background-color: coral;
 }
