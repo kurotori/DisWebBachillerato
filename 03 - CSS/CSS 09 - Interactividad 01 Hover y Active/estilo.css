@@ -1,14 +1,16 @@
 body{
     width: 100%;
     height: 100%;
+    margin: 0px;
     font-family: Arial, sans-serif;
 }
+
 #barraCartas{
     position: relative;
     left: 12.5%;
     right: auto;
     width: 75%;
-    height: 25vh;
+    height: 30vh;
     background-color: green;
 
 }
@@ -27,7 +29,60 @@ body{
     background-repeat: no-repeat;
 }
 
+/*  :hover
+    Permite indicar qué propiedades del elemento se modifican cuando
+    el puntero del ratón pasa por encima del mismo.
+    Las propiedades se mantienen mientras el puntero del ratón se 
+    mantenga encima del elemento.
+*/
+
 .carta:hover{
-    width: 80px;
-    height: 130px;
+    width: 88px;
+    height: 135px;
+}
+
+/*  :active 
+    Permite indicar qué propiedades del elemento se modifican 
+    cuando se realiza un click sobre el objeto.
+    Las propiedades se mantienen mientras el botón del ratón se 
+    mantenga presionado.
+ */
+#espada01:active{
+    background-image: url(img/espada1.png);
+}
+
+#copa01:active{
+    background-image: url(img/copa1.png);
+}
+
+#basto01:active{
+    background-image: url(img/basto1.png);
+}
+
+#oro01:active{
+    background-image: url(img/oro1.png);
+}
+
+#comodin:active{
+    background-image: url(img/comodin0.png);
+}
+
+#copa12:active{
+    background-image: url(img/copa12.png);
+}
+
+#basto12:active{
+    background-image: url(img/basto12.png);
+}
+
+#espada12:active{
+    background-image: url(img/espada12.png);
+}
+
+#oro12:active{
+    background-image: url(img/oro12.png);
+}
+
+#oro05:active{
+    background-image: url(img/oro5.png);
 }
