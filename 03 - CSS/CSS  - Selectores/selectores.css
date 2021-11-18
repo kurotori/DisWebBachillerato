@@ -1,0 +1,30 @@
+etiqueta{
+    propiedad:valor;
+}
+/*  Selector de Etiqueta
+    Se indica utilizando unicamente el nombre de la etiqueta.
+    Las propiedades aplicadas se aplican a todas las elementos que
+    se creen mediante esa etiqueta.
+    Tambien permite 'crear' una etiqueta propia.
+ */
+
+
+#elemento{
+    propiedad:valor;
+}
+/*  Selector de Elemento Identificado
+    Se indica mediante el símbolo '#' seguido del valor del parámetro
+    'id' del elemento.
+    Los valores de 'id' deben ser únicos en una misma página, por lo que
+    se trata de propiedades que se aplicarán a un elemento específico.
+*/
+
+.clase{
+    propiedad:valor;
+}
+/*  Selector de Clase de Elementos
+    Se indica mediante un punto ('.') seguido del nombre de la clase.
+    Un mismo elemento puede tener múltiples clases, y varios elementos pueden tener
+    la misma clase en una misma página, por lo que se trata de propiedades que se
+    aplicarán a varios elementos de la página.
+*/
