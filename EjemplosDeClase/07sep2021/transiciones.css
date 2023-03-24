@@ -1,0 +1,11 @@
+#caja{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    transition: background-color 2000ms;
+}
+
+#caja:hover{
+    background-color: blue;
+    border-radius: 50px;
+}
