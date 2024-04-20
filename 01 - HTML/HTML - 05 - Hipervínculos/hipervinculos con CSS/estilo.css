@@ -8,6 +8,19 @@ a{
     transition: all 500ms;
 }
 
-a:hover{
-    font-size: 80px;
+a:link{
+    color: red;
 }
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    background-color: yellow;
+}
+
+a:active{
+    background-color: grey;
+}
+
