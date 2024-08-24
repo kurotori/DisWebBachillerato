@@ -1,0 +1,45 @@
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+.cuadroGrande{
+    width: 250px;
+    height: 250px;
+    border: 5px solid green;
+}
+
+.cuadroChico{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    transition: all 100ms;
+}
+
+.cuadroChico:hover{
+    width: 60px;
+    height: 60px;
+}
+
+#uno{
+    float: left;
+}
+
+#dos{
+    float: right;
+}
+
+#tres{
+    float: left;
+    position: relative;
+    top: calc(100% - 50px);
+    left: -50px;
+}
+
+#cuatro{
+    float: right;
+    position: relative;
+    top: calc(100% - 50px);
+    right: -50px;
+}
