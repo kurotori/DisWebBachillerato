@@ -1,0 +1,22 @@
+.texto_descripcion{
+    font-family: "Noto Serif";
+    width: 100%;
+    height: 100%;
+}
+
+#ejemplo{
+    display: none;
+}
+
+#resultado{
+    position: relative;
+    border-top: 1px solid black;
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}

@@ -4,10 +4,550 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crear Cartas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <svg>
-        
-    </svg>
+    <div id="archivo" class="no-print">
+        <h1>Creador de Cartas para D&D</h1>
+        <input type="file" name="inptArchivo" id="inptArchivo" accept=".csv">
+        <br>
+        <button onclick="procesarArchivo()">Procesar CSV</button>
+        <button>Limpiar Pantalla</button>
+    </div>
+    <div id="ejemplo">
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="9cm"
+   height="10cm"
+   viewBox="0 0 90 100"
+   version="1.1"
+   id="carta_body"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   sodipodi:docname="Carta D&amp;D.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.1849342"
+     inkscape:cx="166.67592"
+     inkscape:cy="191.57182"
+     inkscape:window-width="1366"
+     inkscape:window-height="725"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer6" />
+  <defs
+     id="defs2">
+    <rect
+       x="14.755014"
+       y="149.49413"
+       width="273.99806"
+       height="178.83799"
+       id="rect1047" />
+    <rect
+       x="211.2041"
+       y="71.66349"
+       width="75.420143"
+       height="15.798861"
+       id="rect2107" />
+    <rect
+       x="286.02774"
+       y="86.119377"
+       width="77.079216"
+       height="19.184259"
+       id="rect2101" />
+    <rect
+       x="92.716026"
+       y="71.719002"
+       width="113.59451"
+       height="29.323341"
+       id="rect1729" />
+    <rect
+       x="14.986693"
+       y="71.327271"
+       width="60.290207"
+       height="18.072753"
+       id="rect1723" />
+    <rect
+       x="11.949117"
+       y="13.056025"
+       width="277.58032"
+       height="45.602631"
+       id="rect1648" />
+    <rect
+       x="16.776743"
+       y="54.981094"
+       width="107.23106"
+       height="38.975883"
+       id="rect1457" />
+    <rect
+       x="8.3132219"
+       y="8.8805561"
+       width="286.62885"
+       height="55.280636"
+       id="rect1339" />
+    <rect
+       x="92.716026"
+       y="71.719002"
+       width="208.05465"
+       height="53.618454"
+       id="rect1729-5" />
+  </defs>
+  <g
+     inkscape:label="Cajas"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.337164;stroke-dasharray:none"
+       id="rect641"
+       width="85.660843"
+       height="95.662834"
+       x="2.168256"
+       y="2.168256"
+       ry="0"
+       inkscape:label="Borde_exterior"
+       sodipodi:insensitive="true" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.318931;stroke-dasharray:none"
+       id="rect641-3"
+       width="85.680695"
+       height="14.681068"
+       x="2.1595089"
+       y="2.1595039"
+       ry="0"
+       inkscape:label="Caja_nombre"
+       sodipodi:insensitive="true" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.280854;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;paint-order:normal"
+       id="rect641-3-6"
+       width="15.319145"
+       height="14.719146"
+       x="2.1404271"
+       y="16.840427"
+       ry="0"
+       inkscape:label="Caja_nivel"
+       sodipodi:insensitive="true" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.325551;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;paint-order:normal"
+       id="rect641-3-6-7"
+       width="43.874451"
+       height="14.674449"
+       x="17.362774"
+       y="16.862774"
+       ry="0"
+       inkscape:label="Caja_escuela"
+       sodipodi:insensitive="true" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.338915;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;paint-order:normal"
+       id="rect641-3-6-7-5"
+       width="26.541084"
+       height="14.661084"
+       x="61.289455"
+       y="16.867615"
+       ry="0"
+       inkscape:label="Caja_componentes"
+       sodipodi:insensitive="true" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
+       id="rect841"
+       width="26.531118"
+       height="14.481175"
+       x="2.2594123"
+       y="31.659412"
+       inkscape:label="Caja_accion"
+       sodipodi:insensitive="true" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.342997;stroke-dasharray:none"
+       id="rect841-5"
+       width="34.457005"
+       height="14.575445"
+       x="28.811497"
+       y="31.548105"
+       inkscape:label="Caja_duracion"
+       sodipodi:insensitive="true" />
+    <rect
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.289828;stroke-dasharray:none"
+       id="rect841-5-3"
+       width="24.570171"
+       height="14.594526"
+       x="63.284912"
+       y="31.544912"
+       inkscape:label="Caja_alcance"
+       sodipodi:insensitive="true" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="texto"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.2982714,0,0,0.29396311,0.01610191,5.5846493)"
+       id="text1646"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.1181px;line-height:0;font-family:'Droid Sans Fallback';-inkscape-font-specification:'Droid Sans Fallback';text-align:center;white-space:pre;shape-inside:url(#rect1648);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.13485;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       inkscape:label="Nombre"><tspan
+         x="14.268406"
+         y="17.363412"
+         id="tspan10"><tspan
+            class="carta_nombre"
+           style="font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif'"
+           id="tspan8">Mordenkainen's Magnificent Mansion</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.29938541,0,0,0.29726078,-5.4441069,0.47708878)"
+       id="text1727"
+       style="display:inline;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.1181px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';text-align:center;white-space:pre;shape-inside:url(#rect1729);fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.13008;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       inkscape:label="Escuela"><tspan
+        class="carta_escuela"
+         x="94.695535"
+         y="85.474334"
+         id="tspan11">Transmutacion</tspan></text>
+    <text
+       xml:space="preserve"
+       style="display:inline;font-size:4px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
+       x="9.7540007"
+       y="28.690735"
+       id="text1543"
+       inkscape:label="Nivel(valor)"><tspan
+       class="carta_nivel"
+         sodipodi:role="line"
+         id="tspan1541"
+         style="stroke-width:0.3"
+         x="9.7540007"
+         y="28.690735">C</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.299384,0,0,0.29609357,-3.7683275,-1.9814642)"
+       id="text1721"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.1181px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';text-align:center;white-space:pre;shape-inside:url(#rect1723);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.13008;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       inkscape:label="Nivel(Titulo)"><tspan
+         x="26.181326"
+         y="85.083709"
+         id="tspan12">Nivel</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
+       x="15.594971"
+       y="37.327629"
+       id="text1525"
+       inkscape:label="Tiempo(Titulo)"><tspan
+         sodipodi:role="line"
+         id="tspan1523"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.3"
+         x="15.594971"
+         y="37.327629">Tiempo</tspan></text>
+    <text
+       xml:space="preserve"
+       style="display:inline;font-size:4px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
+       x="75.519997"
+       y="42.806805"
+       id="text1681"
+       inkscape:label="Alncance(valor)"><tspan
+       class="carta_alcance"
+         sodipodi:role="line"
+         id="tspan1679"
+         style="stroke-width:0.3"
+         x="75.519997"
+         y="42.806805">Personal</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
+       x="75.669998"
+       y="37.787628"
+       id="text1533"
+       inkscape:label="Alcance(Titulo)"><tspan
+         sodipodi:role="line"
+         id="tspan1531"
+         style="stroke-width:0.3"
+         x="75.669998"
+         y="37.787628">Alcance</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.3"
+         x="75.669998"
+         y="42.787628"
+         id="tspan1535" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
+       x="15.504972"
+       y="42.818806"
+       id="text1539"
+       inkscape:label="Tiempo(valor)"><tspan
+        class="carta_tiempo"
+         sodipodi:role="line"
+         id="tspan1537"
+         style="stroke-width:0.3"
+         x="15.504972"
+         y="42.818806">Reacción</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
+       x="45.982002"
+       y="42.806805"
+       id="text1677"
+       inkscape:label="Duracion(Valor)"><tspan
+       class="carta_duracion"
+         sodipodi:role="line"
+         id="tspan1675"
+         style="stroke-width:0.3"
+         x="45.982002"
+         y="42.806805">Con. 1 min</tspan></text>
+    <text
+       xml:space="preserve"
+       style="display:inline;font-size:4px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
+       x="46.02"
+       y="37.799629"
+       id="text1529"
+       inkscape:label="Duracion(Titulo)"><tspan
+         sodipodi:role="line"
+         id="tspan1527"
+         style="stroke-width:0.3"
+         x="46.02"
+         y="37.799629">Duración</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="texto(Descripcion)"
+     style="display:inline"
+     transform="matrix(1.000352,0,0,0.83640206,-0.01586798,15.677489)">
+    <text
+       xml:space="preserve"
+       style="font-size:4.37296516px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.337164"
+       x="44.787247"
+       y="41.463882"
+       id="text1043"
+       inkscape:label="Parte"
+       transform="scale(1.0068431,0.99320343)"><tspan
+         sodipodi:role="line"
+         id="tspan1041"
+         style="stroke-width:0.337164;font-size:4.37296516px"
+         x="44.787247"
+         y="41.463882">parte tanto</tspan></text>
+    <text
+    class="carta_descripcion"
+       xml:space="preserve"
+       transform="matrix(0.29939545,0,0,0.29533955,-0.26425739,-0.23130424)"
+       id="text1045"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0295px;line-height:1.3;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect1047);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.13386"
+       inkscape:label="Descripcion"
+       x="0"
+       y="0"></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Componentes(circulos vacios)"
+     style="display:inline"
+     transform="translate(0.4575119,-1.2066598)">
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.276298;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="path1795"
+       cx="64.491989"
+       cy="28.887791"
+       rx="1.5091256"
+       ry="1.4565974"
+       inkscape:label="ritual (vacio)" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.276298;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="path1795-2"
+       cx="69.297241"
+       cy="28.887791"
+       rx="1.5091256"
+       ry="1.4565974"
+       inkscape:label="concentracion (vacio)" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.276298;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="path1795-26"
+       cx="78.907738"
+       cy="28.887791"
+       rx="1.5091256"
+       ry="1.4565974"
+       inkscape:label="Verbal (vacio)" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.276298;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="path1795-26-0"
+       cx="83.712982"
+       cy="28.887791"
+       rx="1.5091256"
+       ry="1.4565974"
+       inkscape:label="Somatico (vacio)" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.276298;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="path1795-26-1"
+       cx="74.102486"
+       cy="28.887791"
+       rx="1.5091256"
+       ry="1.4565974"
+       inkscape:label="Material (vacio)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Componentes (texto)"
+     style="display:inline"
+     transform="translate(0.18819324,-1.2066598)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.49553px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.337164;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       x="63.954762"
+       y="23.890696"
+       id="text2117"
+       inkscape:label="R"
+       transform="scale(1.0068431,0.99320343)"><tspan
+         sodipodi:role="line"
+         id="tspan2115"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.337164"
+         x="63.954762"
+         y="23.890696">R</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.49553px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.337164;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       x="68.774559"
+       y="23.890696"
+       id="text2121"
+       inkscape:label="C"
+       transform="scale(1.0068431,0.99320343)"><tspan
+         sodipodi:role="line"
+         id="tspan2119"
+         style="stroke-width:0.337164"
+         x="68.774559"
+         y="23.890696">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.49553px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.337164;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       x="73.598846"
+       y="23.890696"
+       id="text2125"
+       inkscape:label="V"
+       transform="scale(1.0068431,0.99320343)"><tspan
+         sodipodi:role="line"
+         id="tspan2123"
+         style="stroke-width:0.337164"
+         x="73.598846"
+         y="23.890696">V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.49553px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.337164;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       x="78.378181"
+       y="23.890696"
+       id="text2129"
+       inkscape:label="S"
+       transform="scale(1.0068431,0.99320343)"><tspan
+         sodipodi:role="line"
+         id="tspan2127"
+         style="stroke-width:0.337164"
+         x="78.378181"
+         y="23.890696">S</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.49553px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.337164;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       x="83.144028"
+       y="23.890696"
+       id="text2133"
+       inkscape:label="M"
+       transform="scale(1.0068431,0.99320343)"><tspan
+         sodipodi:role="line"
+         id="tspan2131"
+         style="stroke-width:0.337164"
+         x="83.144028"
+         y="23.890696">M</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Componentes (Circulos negros)"
+     style="display:inline"
+     transform="translate(0.4575119,-1.2066598)">
+    <ellipse
+        class="carta_comp_r"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.276298;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="path1795-3"
+       cx="64.491989"
+       cy="28.887791"
+       rx="1.5091256"
+       ry="1.4565974"
+       inkscape:label="ritual (lleno)" />
+    <ellipse
+        class="carta_comp_c"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.276298;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="path1795-2-6"
+       cx="69.297241"
+       cy="28.887791"
+       rx="1.5091256"
+       ry="1.4565974"
+       inkscape:label="concentracion (lleno)" />
+    <ellipse
+        class="carta_comp_s"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.276298;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="path1795-26-7"
+       cx="78.907738"
+       cy="28.887791"
+       rx="1.5091256"
+       ry="1.4565974"
+       inkscape:label="Verbal (lleno)" />
+    <ellipse
+        class="carta_comp_m"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.276298;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="path1795-26-0-5"
+       cx="83.712982"
+       cy="28.887791"
+       rx="1.5091256"
+       ry="1.4565974"
+       inkscape:label="Somatico (lleno)" />
+    <ellipse
+        class="carta_comp_v"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.276298;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="path1795-26-1-3"
+       cx="74.102486"
+       cy="28.887791"
+       rx="1.5091256"
+       ry="1.4565974"
+       inkscape:label="Material (lleno)" />
+       <path
+       style="fill:none;stroke:#000000;stroke-width:0.143644px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 84.542488,1.2784818 h 4.928178 v 4.9281778"
+       id="path7"
+       inkscape:label="corte_arriba" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.143644px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 84.61431,101.20666 h 4.928178 v -4.92818"
+       id="path8"
+       inkscape:label="corte_abajo" />
+       <path
+       style="fill:none;stroke:#000000;stroke-width:0.143644px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 4.5424881,1.2784818 h -4.928178 v 4.9281778"
+       id="path9"
+       inkscape:label="corte_arriba_i" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.143644px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 4.4706661,101.20666 h -4.928178 v -4.92818"
+       id="path10"
+       inkscape:label="corte_abajo_i" />
+  </g>
+</svg>
+    </div>
+    <div id="resultado">
+
+    </div>
+
 </body>
+<script src="funciones.js"></script>
 </html>
